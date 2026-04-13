@@ -71,6 +71,33 @@
 
 <img width="1515" height="672" alt="Таблица решений" src="https://github.com/user-attachments/assets/251fd65a-f89f-49eb-8a69-c036d87aa561" />
 
+## Тестирование пар (pairwise testing).  
+
+|№ п/п|Платформа|Язык|Состояние сети|
+|-----|----------|----------|----------|
+|1|iOS|RU|3G|
+|2|iOS|RU|4G|
+|3|iOS|RU|Wi-Fi|
+|4|iOS|ENG|3G|
+|5|iOS|ENG|4G|
+|6|iOS|ENG|Wi-Fi|
+|7|Android|RU|3G|
+|8|Android|RU|4G|
+|9|Android|RU|Wi-Fi|
+|10|Android|ENG|3G|
+|11|Android|ENG|4G|
+|12|Android|ENG|Wi-Fi|
+
+**Убираем тесты, которые дублируют друг друга, оставляя максимальное покрытие при минимальном необходимом наборе сценариев.**
+|№ п/п|Платформа|Язык|Состояние сети|
+|-----|----------|----------|----------|
+#|1|iOS|RU|Wi-Fi|
+#|2|iOS|ENG|3G|
+#|3|iOS|ENG|4G|
+#|4|Android|RU|3G|
+#|5|Android|RU|4G|
+#|6|Android|ENG|Wi-Fi|
+
 
 
 
